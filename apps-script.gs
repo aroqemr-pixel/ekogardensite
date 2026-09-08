@@ -11,9 +11,15 @@
  * 2. Alt kısımda sekme ekle (+) ile TAM OLARAK şu 3 sekmeyi oluşturun
  *    (isimler harfine harfine aynı olmalı, Türkçe karakter kullanmayın):
  *
- *    SEKME: Urunler       başlıklar: Kategori | Ürün Adı | Açıklama | Aktif
+ *    SEKME: Urunler       başlıklar: Kategori | Ürün Adı | Açıklama | Görsel URL | Aktif
  *    SEKME: Ekip          başlıklar: Ad Soyad | Unvan | Aktif
  *    SEKME: Hizmetler     başlıklar: Baslik | Aciklama | Aktif
+ *
+ *    Not: Urunler'de Fiyat sütunu YOK — sitede fiyat gösterilmiyor. Görsel URL
+ *    isteğe bağlıdır; boş bırakılırsa ürün kartında yaprak ikonu gösterilir.
+ *    Kendi fotoğrafınızı kullanmak için fotoğrafı GitHub reponuzdaki
+ *    assets/products/ klasörüne yükleyip bu sütuna assets/products/dosyaadi.jpg
+ *    şeklinde yazabilir, ya da herhangi bir görselin doğrudan linkini yapıştırabilirsiniz.
  *
  * 3. Her sekmenin ilk satırına yukarıdaki başlıkları yazın, alt satırlara
  *    kendi verinizi girin. "Aktif" sütununa EVET veya HAYIR yazın — HAYIR
