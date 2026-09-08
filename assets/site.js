@@ -1,7 +1,7 @@
 /* ====== AYARLAR: kendi bilgilerinizle değiştirin ====== */
 const SITE_CONFIG = {
-  waNumber: "905000000000", // WhatsApp numaranız (90 ile başlayıp boşluksuz)
-  sheetWebAppUrl: "", // Apps Script Web App URL'niz (kurulum: apps-script.gs dosyasındaki adımlar)
+  waNumber: "9053525124755", // WhatsApp numaranız (90 ile başlayıp boşluksuz)
+  sheetWebAppUrl: "https://script.google.com/macros/s/AKfycbxmupDLy1kpcbHW2CKPtY1ktYtfI24l5XVGj56-E2KBay_WRmU7spk-UCQZgdLNZxmdbw/exec", // Apps Script Web App URL'niz (kurulum: apps-script.gs dosyasındaki adımlar)
 };
 /* ======================================================= */
 
