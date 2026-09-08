@@ -186,6 +186,30 @@ h1.headline{font-size:clamp(2.4rem, 4.4vw, 3.5rem); margin-bottom:20px;}
 .hero-media .cap strong{display:block; font-family:'Manrope',sans-serif; font-size:1.25rem; margin-bottom:4px;}
 .hero-media .cap span{font-size:0.9rem; opacity:0.9;}
 
+/* ---------- Hero carousel (kayan görsel/video) ---------- */
+.hero-media.has-carousel{background:var(--blue-dark);}
+.hero-slide{
+  position:absolute; inset:0; opacity:0; transition:opacity 0.8s ease; pointer-events:none;
+}
+.hero-slide.is-active{opacity:1; pointer-events:auto;}
+.hero-slide img, .hero-slide video{
+  width:100%; height:100%; object-fit:cover; display:block;
+}
+.hero-slide::after{
+  content:""; position:absolute; inset:0;
+  background:linear-gradient(180deg, rgba(7,53,104,0) 45%, rgba(7,53,104,0.65) 100%);
+}
+.hero-slide .cap{z-index:2;}
+.hero-dots{
+  position:absolute; right:20px; bottom:22px; z-index:3;
+  display:flex; gap:8px;
+}
+.hero-dot{
+  width:9px; height:9px; border-radius:50%; border:1.5px solid rgba(255,255,255,0.8);
+  background:transparent; padding:0; cursor:pointer;
+}
+.hero-dot.is-active{background:#fff;}
+
 .stat-strip{
   border-top:1px solid var(--line);
   display:grid; grid-template-columns:repeat(3,1fr);
